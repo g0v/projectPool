@@ -1,6 +1,8 @@
 ProjectPool
 =============
-The g0v project pool.
+The g0v project pool. 
+[hackfoldr](http://hackfoldr.org/projectpool): 主要維護地
+[Github Page](http://g0v.github.io/projectPool/): 備份
 
 ## Structure
 
@@ -11,9 +13,7 @@ The g0v project pool.
     + styles
 - vendor
     + angular
-    + d3js
     + jquery
-    + semantic-ui
 - views
 
 ## Installation
