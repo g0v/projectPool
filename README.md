@@ -1,6 +1,6 @@
 ProjectPool
 =============
-The g0v project pool. 
+The g0v project pool.
 [hackfoldr](http://hackfoldr.org/projectpool): 主要維護地
 [Github Page](http://g0v.github.io/projectPool/): 備份
 
@@ -25,6 +25,9 @@ The g0v project pool.
 and then open `http://localhost:3000/`
 
 ## Change Log
+
+#### 2015/10/29 v0.0.2
+- Fix webkit bug
 
 #### 2014/06/18 v0.0.1
 - init

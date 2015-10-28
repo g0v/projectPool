@@ -140,7 +140,7 @@
     line-height:36px;
     overflow-x:hidden;
     overflow-y:auto;
-    transition: all 0.15s ease 0s;
+    transition: all 0.15s ease 0s;-webkit-transition: all 0.15s ease 0s;
     ">
 
 
@@ -509,13 +509,19 @@
 
     <!--載入時執行-->
     <script>
-      $('#cnt').css({'height': $(window).height() - 40 +'px'});
+  $('#cnt').css({'height': $(window).height() - 40 +'px'});
+  $('#lnt').css({'height': $(window).height() - 40 +'px'});
+  $('#rnt').css({'height': $(window).height() - 40 +'px'});
+  $('#rnt').css({'left': $('#lnt').width() + 11 +'px'});
     </script>
 
     <!--當視窗改變大小時執行-->
     <script>
     $(window).on('resize', function() {
       $('#cnt').css({'height': $(window).height() - 40 +'px'});
+      $('#lnt').css({'height': $(window).height() - 40 +'px'});
+      $('#rnt').css({'height': $(window).height() - 40 +'px'});
+      $('#rnt').css({'left': $('#lnt').width() + 11 +'px'});
     });
     </script>
 
